@@ -1,10 +1,10 @@
 # ResultAdvance
 
-A collection of Swift extensions to improve the `Result` type with additional functionality, providing a more ergonomic API for handling results in Swift applications.
-
 [![Swift Version](https://img.shields.io/badge/Swift-5.5+-orange.svg)](https://swift.org/)
 [![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+A collection of Swift extensions to improve the `Result` type with additional functionality, providing a more ergonomic API for handling results in Swift applications.
 
 ## Features
 
