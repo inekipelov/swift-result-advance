@@ -21,7 +21,6 @@ public extension Result {
     ///   - priority: The priority of the task. Pass `nil` to use the current priority.
     ///   - operation: An asynchronous closure that takes the success value as its parameter.
     /// - Returns: The original `Result` instance, allowing for method chaining.
-    @available(iOS 15, *)
     @inlinable 
     @discardableResult
     func onSuccess(
@@ -55,7 +54,6 @@ public extension Result {
     ///   - priority: The priority of the task. Pass `nil` to use the current priority.
     ///   - operation: An asynchronous closure that takes the error value as its parameter.
     /// - Returns: The original `Result` instance, allowing for method chaining.
-    @available(iOS 15, *)
     @inlinable
     @discardableResult
     func onFailure(

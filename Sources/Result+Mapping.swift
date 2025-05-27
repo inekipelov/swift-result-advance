@@ -57,7 +57,6 @@ public extension Result {
     ///   - successTransform: An asynchronous closure that takes the success value and returns a value of the common type.
     ///   - failureTransform: An asynchronous closure that takes the failure value and returns a value of the common type.
     /// - Returns: The transformed value of the common type.
-    @available(iOS 15, *)
     @inlinable 
     func map<T>(
         success successTransform: (Success) async throws -> T,
