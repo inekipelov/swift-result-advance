@@ -5,8 +5,7 @@ public extension Result {
     ///
     /// - Parameter transform: An asynchronous closure that takes the success value and returns a new value.
     /// - Returns: A new result with the transformed success value or the original failure.
-    @available(iOS 15, *)
-    @inlinable 
+    @inlinable
     func map<NewSuccess>(_ transform: (Success) async throws -> NewSuccess) async rethrows -> Result<NewSuccess, Failure> {
         switch self {
         case .success(let value):
@@ -20,7 +19,6 @@ public extension Result {
     ///
     /// - Parameter transform: An asynchronous closure that takes the failure value and returns a new value.
     /// - Returns: A new result with the transformed failure value or the original success.
-    @available(iOS 15, *)
     @inlinable 
     func mapFailure<NewFailure>(_ transform: (Failure) async throws -> NewFailure) async rethrows -> Result<Success, NewFailure> {
         switch self {
