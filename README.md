@@ -32,7 +32,7 @@ A collection of Swift extensions to improve the `Result` type with additional fu
 ## Requirements
 
 - Swift 5.5+
-- iOS 13.0+/ macOS 10.15+/ tvOS 13.0+/ watchOS 6.0+
+- iOS 13.0+ / macOS 10.15+ / tvOS 13.0+ / watchOS 6.0+
 
 ## Installation
 
