@@ -63,7 +63,6 @@ public extension Result {
         if case .failure(let error) = self {
             Task(priority: priority) {
                 try await operation(error)
-                
             }
         }
         return self
