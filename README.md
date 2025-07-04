@@ -4,11 +4,10 @@
 [![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Swift Tests](https://github.com/inekipelov/swift-result-advance/actions/workflows/swift.yml/badge.svg)](https://github.com/inekipelov/swift-result-advance/actions/workflows/swift.yml)
-
-[![iOS](https://img.shields.io/badge/iOS-13.0+-007AFF.svg)](https://developer.apple.com/ios/)
-[![macOS](https://img.shields.io/badge/macOS-10.15+-00D4AA.svg)](https://developer.apple.com/macos/)
-[![tvOS](https://img.shields.io/badge/tvOS-13.0+-9933CC.svg)](https://developer.apple.com/tvos/)
-[![watchOS](https://img.shields.io/badge/watchOS-6.0+-FF3B30.svg)](https://developer.apple.com/watchos/)
+[![iOS](https://img.shields.io/badge/iOS-13.0+-blue.svg)](https://developer.apple.com/ios/)
+[![macOS](https://img.shields.io/badge/macOS-10.15+-aqua.svg)](https://developer.apple.com/macos/)
+[![tvOS](https://img.shields.io/badge/tvOS-13.0+-white.svg)](https://developer.apple.com/tvos/)
+[![watchOS](https://img.shields.io/badge/watchOS-6.0+-orange.svg)](https://developer.apple.com/watchos/)
 
 A collection of Swift extensions to improve the `Result` type with additional functionality, providing a more ergonomic API for handling results in Swift applications.
 
